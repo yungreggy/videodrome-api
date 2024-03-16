@@ -3,6 +3,7 @@ const express = require("express");
 const path = require("path");
 const mustacheExpress = require("mustache-express");
 const cors = require("cors");
+
 // ===== INITIALISATION VARIABLES D'ENVIRONNEMENT
 require("dotenv").config();
 
@@ -20,18 +21,13 @@ app.set("view engine", "mustache");
 app.engine("mustache", mustacheExpress());
 
 // ===== MIDDLEWARES
-// Ajoute un dossier public pour les fichiers statiques (css, js, images).
-// Doit être défini avant les routes
 app.use(express.static(path.join(__dirname, "public")));
 
 // ===== ROUTES
-// Toutes les routes non statiques doivent être définies après les middlewares
 app.use("/films", require("./routes/films.js"));
 app.use("/utilisateurs", require("./routes/utilisateurs.js"));
 
 // ===== PAGE 404
-// Cette route doit être définie en dernier pour que les autres routes soient testées en premier
-// Si aucune route n'est trouvée, alors on affiche la page 404
 app.use((req, res) => {
     res.setHeader("Content-Type", "text/html");
     res.statusCode = 404;
@@ -39,6 +35,12 @@ app.use((req, res) => {
 });
 
 // ===== DÉMARRAGE DU SERVEUR
-app.listen(port, () => {
+const server = http.createServer(app);
+
+// Définir le keep alive timeout et le headers timeout à 120 secondes
+server.keepAliveTimeout = 120000;
+server.headersTimeout = 120000;
+
+server.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
