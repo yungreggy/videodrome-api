@@ -81,6 +81,7 @@ router.get("/:id", [check("id").escape().trim().notEmpty()], async (req, res) =>
  */
 router.post(
     "/",
+    auth,
     [
         check("titre").escape().trim().notEmpty().isString(),
         check("genres").escape().trim().exists().isArray(),
@@ -113,6 +114,7 @@ router.post(
  */
 router.put(
     "/:id",
+    auth,
     [
         check("id").escape().trim().notEmpty().isString(),
         check("titre").escape().trim().optional(true).notEmpty().isString(),
