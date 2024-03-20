@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "videodrome-api",
+    "private_key_id": "a0e97a10df8f66c4386c72874f85c850b83a8fea",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCosMZqjd0tRSuL\nGHhNPERGip9AOl3NSj0dS85NGl8g4d49VibZf1ATXbOyrfIbD2NzfsXHuEtqzTBV\nKEfhBVftSV8i1q2Ls72HngRnz32+HGy9wD9bWh1VcYYJvBEMbWGqvI6o9g5SCfV1\nVndTrWNX+uZGrAO/oxCjQkSZSjTKdOduFRXSiwbcl3xxuhJVedAUmhY9YLBSG5sY\n8B5FsvyZJ39SYQj3Weg1TfaU5AYvTCdw2YIIKcEgPHXxjX4QO7MzLesae1wMqf0M\njM5ktOXPlo7t+Zwf+0SsRQaBdBVOKHt+sDk5uZMWwSJRqcDubH701oDEJVrIRJAP\nEAw8FHkfAgMBAAECggEAPvaYYJ4p32NRgN31zTJA86l7DmCasWzTydMJIhtFRYM4\nzeERqB3OeCQB1h/53WLNhobbcJPXxnnm3+okhhdV/dHkih7h8OJ6TBvNXigCsYpv\nhhWzMDg++azhUFHbdS2AhldR0jvhFXr1HMJU0K1Hhse12swKrCVDqQQrkaGyeZwz\n7JJT+ERsEfXxZVgv7ijqTyixVcCPCE48l4hfA9MznEMC6fdIBouTI+LNGEIrXP6D\nKFizMztmpUFv6P5WfDZ0XatNesGtxobPDLCKroOITFMLTGsqdhTiOk83ioApTXIJ\nRfW3X68AKyVrLlYveFI7RlwnuP1Oj8amOsXEnhlLxQKBgQDmgIdudckvJHd9fkGU\nJz3IVLqdfkSCO3he4eT9C2NQX3KVKnesFM6Qj/5foiIKTaO6lg4NY+GqnSFW3+Qd\nJ4N+4cbwAlkNRp+MBqlYNYEsQhO7K69VCFyHNNIFl4kibZtfkivUsr43z5tN9s35\nWfMU0dZtP+vpmxrYk6lBjomJXQKBgQC7WdYhsmmgRPfyO4jjq7C9s1s0VwBKu9Th\nCDy8RAlciW0BQNqXSf/Mt7cHtRZkOwNU3+dDA/CTzB37X0VIPyt5l7JfSM6a2ucZ\nVU3wMJIeo8soXfgNV2noS1k35D5O00RckvhIhy/vt81LN/J/MMikYDfx7nK5XF7K\nxUg/4FkYqwKBgDX86Luwjtyh1/LmvYlr34aqgcMdrgIq17ixhCbYofxTPs09UyZV\nAUTO1S+lFAABy1WKi+QK/vItN3/XlOBXPu9bBnN0uVLotbngXY2xin3JREHUq45p\nFPL+Jir1IUOVFI0/+VAqRW9hCukp43iB3vODaovQKvtePt13SG94aTJpAoGAM71c\noJO4DfXeD7yXUmDQ/6KvtmWsg/cZlEgFFe0oNLETNHxnoc5i4XN/DZbaJzYQ9nib\nUmudHgQJ56jo5knjxMG7FgtyW1vG5L0lOAcB44pSicRhw7V3Xxqn+gKDnptDztkb\nzlPfTjGRdYtu4edkEdksuhijAEPdPdx71oArut8CgYEA2G3ORYNTwHB4aZiulr64\nHhOOgIlGe76c1KGJOy7/wCc7AK7LU5Ghu/hKK7QZRH0mOl90AvQ7+DfWJAFgFbhh\nUa4RVeC2UAzzS1mBITt3prRoxFW+HU95+W5CbA8YRnngz77qIhbsj4CorHmdVOk/\ng2lZBcqE2OTeM9HptovVZk8=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-9e9jn@videodrome-api.iam.gserviceaccount.com",
+    "client_id": "101213185658654221010",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-9e9jn%40videodrome-api.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
